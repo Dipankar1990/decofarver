@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.variants {
+    padding: 67px 50px;
+    width: 700px;
+    height: auto;
+    border: 1px solid gray;
+    margin: 30px;
+    position: relative;
+}
+.variants h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    display: block;
+}
+.variants-select {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    color: #8a8a8a;
+    font-size: 15px;
+    outline: 0;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.variants-content button{
+    width: 180px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #333333;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+i.fal.fa-table {
+    margin-right:8px;
+}
+i.fas.fa-paint-brush {
+    margin-right: 10px;
+}
+.variants-input{
+    height: 40px;
+    width: 400px;
+    line-height: 40px;
+    color: #8a8a8a;
+    font-size: 15px;
+    outline: 0;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 0 20px;
+    -webkit-appearance: none;
+
+}
+
+/*=======
+Popup-Area
+=========*/
+
+.popup{
+    padding: 50px;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto 0;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #444;
+    overflow:scroll;
+}
+.faver {
+    background: #fff;
+    padding: 50px;
+}
+
+.faver-left .title-area {
+    background: #f5f5f5;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.faver-left {
+    text-align: center;
+}
+
+.title-area b{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title-area a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent; 
+}
+.title-area span, .title-area a{
+    color: #1cab55;
+    text-decoration: none!important;
+    font-weight: bold;
+    font-size: 14px;
+}
+.img{
+    position: relative;
+    border: 1px solid silver;
+    max-width: 100%;
+}
+.humb img {
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid silver;
+}
+.box {
+    background: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.farver_kategori h2 {
+    font-size: 21px;
+    margin: 0 0 10px 0;
+    font-family: oswald,serif;
+}
+.faver-select {
+    position: relative;
+}
+.faver-select select {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #8a8a8a;
+    font-size: 15px;
+    outline: 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+h2.farver-h2 {
+    font-size: 21px;
+}
+
+.farve {
+    border: 2px solid #e1e1e1;
+    cursor: pointer;
+    background: #e1e1e1;
+    margin: 0 30px 10px 0;
+    line-height: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.farve .farve_bg {
+    float: left;
+    width: 30%;
+    height: 34px;
+    margin: 3px 10px 3px 5px;
+    border-radius: 20px;
+}
+.farve .farve_navn {
+    float: left;
+    font-size: 13px;
+}
+.controls {
+    margin-left: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+.selectcolor {
+    font-family: oswald,serif;
+    border-radius: 10px;
+    display: none;
+    background: #08AC51;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 3px 15px;
+    text-align: center;
+}
+.selectcolorInactive {
+    font-family: oswald,serif;
+    border-radius: 10px;
+    background: #E1E1E1;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 3px 15px;
+    text-align: center;
+}
+.fancybox-button {
+    background: rgba(30,30,30,0.6);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    transition: color .2s;
+    vertical-align: top;
+    visibility: inherit;
+    width: 44px;
+    position: absolute;
+    position: fixed;
+    top: 7px;
+    right: 22px;
+
+}
+.fancybox-button svg {
+    display: block;
+    height: 100%;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+.fixedfixed ul li{
+    list-style: none;
+}

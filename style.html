@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font awesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+	<title>Deco-farver</title>
+</head>
+<body>
+    <div class="variants">
+    	<div class="variants-content">
+    		<h2>Vælg Størrelse</h2>
+    		<select class="variants-select">
+    			<option value="Vælg Størrelse">Vælg Størrelse</option>
+    			<option value="0,9 Liter">0,9 Liter</option>
+    			<option value="2,7 Liter">2,7 Liter</option>
+    			<option value="4,5 Liter">4,5 Liter</option>
+    			<option value="10 Liter">10 Liter</option>
+    			<option value="5 x 10 Liter (Storkøb)">5 x 10 Liter (Storkøb)</option>
+    		</select>
+    		<button type="button" value="Beregn mængde"><i class="fal fa-table"></i>Beregn mængde</button>
+    	</div>
+    	<div class="variants-content">
+    		<h2>Vælg farve</h2>
+    		<input class="variants-input" type="text" placeholder="Indtast din farve her eller benyt farvevælger" required="required">	
+    		<button class="show" type="button" value="Beregn mængde"><i class="fas fa-paint-brush"></i>Farvevælger</button>	
+    	</div>
+    </div>
+
+    <div class="popup">
+    	<div class="faver">
+    		<div class="row">
+    			<div class="col-md-6">
+    				<div class="faver-left">
+    				   <div class="title-area">
+	    					<b>Kan du ikke finde den farve du søger?</b>
+	    					<a href="#">Indtast farvekoden manuelt</a> eller ring til os på 
+	    					<span>60 56 57 50</span>
+    				    </div>
+    				   
+    				    <div class="fixedfixed">
+    				    	 <ul>
+    				    	<li color_id="1">
+    				    		<div class="img">
+    				    		<img style="display:block;width:100%" id="img1" src="img/img_1.png" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="2">
+    				    		<div class="img">
+    				    		<img style="display:block;width:100%; background-color: rgb(235, 230, 223);" id="img1" src="img/img_1.png?v=1" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(235, 230, 223);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(235, 230, 223);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(235, 230, 223);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(235, 230, 223);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="3">
+    				    		<div class="img">
+    				    		<img style="display: block; width: 100%; background-color: rgb(247, 235, 213);" id="img1" src="https://decofarver.dk/images/skins/dandodesign/farvevaelger/img/img_1.png?v=1" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(247, 235, 213);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(247, 235, 213);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(247, 235, 213);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(247, 235, 213);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="4">
+    				    		<div class="img">
+    				    		<img style="display: block; width: 100%; background-color: rgb(231, 170, 111)" id="img1" src="https://decofarver.dk/images/skins/dandodesign/farvevaelger/img/img_1.png?v=1" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(231, 170, 111);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(231, 170, 111);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(231, 170, 111);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(231, 170, 111);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="5">
+    				    		<div class="img">
+    				    		<img style="display: block; width: 100%; background-color: rgb(198, 218, 206);" id="img1" src="https://decofarver.dk/images/skins/dandodesign/farvevaelger/img/img_1.png?v=1" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(198, 218, 206);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(198, 218, 206);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(198, 218, 206);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(198, 218, 206);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="6">
+    				    		<div class="img">
+    				    		<img style="display: block; width: 100%; background-color: rgb(143, 147, 124);" id="img1" src="https://decofarver.dk/images/skins/dandodesign/farvevaelger/img/img_1.png?v=1" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(143, 147, 124);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(143, 147, 124);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(143, 147, 124);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(143, 147, 124);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="7">
+    				    		<div class="img">
+    				    		<img style="display: block; width: 100%; background-color: rgb(23, 115, 108)" id="img1" src="https://decofarver.dk/images/skins/dandodesign/farvevaelger/img/img_1.png?v=1" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(23, 115, 108);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(23, 115, 108);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(23, 115, 108);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(23, 115, 108);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="8">
+    				    		<div class="img">
+    				    		<img style="display:block;width:100%; background-color: rgb(164, 80, 66);" id="img1" src="img/img_1.png" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(164, 80, 66);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(164, 80, 66);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(164, 80, 66);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(164, 80, 66);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="9">
+    				    		<div class="img">
+    				    		<img style="display:block;width:100%; background-color: rgb(72, 67, 97);" id="img1" src="img/img_1.png" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(72, 67, 97);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(72, 67, 97);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(72, 67, 97);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(72, 67, 97);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+
+    				    	<li color_id="10">
+    				    		<div class="img">
+    				    		<img style="display:block;width:100%; background-color: rgb(210, 175, 191);" id="img1" src="img/img_1.png" class="img-fluid">
+    				    	</div>
+    				    	<div class="humb hidden-xs">
+    				    		<div class="row">
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_1" src="img/img_1.png?v=1" style="background-color: rgb(210, 175, 191);" class="img-fluid">
+    				    			</div>
+    				    			<div class="col-xs-6 col-md-3">
+    				    				<img id="thumb_2" src="img/img_2.png?v=1" style="background-color: rgb(210, 175, 191);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_3" src="img/img_6.png?v=1" style="background-color: rgb(210, 175, 191);" class="img-fluid">
+    				    		    </div>
+    				    		    <div class="col-xs-6 col-md-3">
+    				    		    	<img id="thumb_4" src="img/img_5.png?v=1" style="background-color: rgb(210, 175, 191);" class="img-fluid">
+    				    		    </div>
+    				    		</div>
+    				    	</div>	
+    				    	</li>
+    				    </ul>
+    				    	
+    				    </div>
+    			    </div>
+    			</div>
+    		<div class="col-md-6">
+    			<div class="faver-right">
+    				<div class=" box farver_kategori">
+    					<h2>1. Vælg farvekategori</h2>
+    					<div class="faver-select">
+    						<select id="farver_kategori">
+								<option class="opt" selected value="standard_farver">1. Populære farver</option>
+								<option class="opt" value="ncs_farver">2. NCS farver</option>
+								<option class="opt" value="ral_farver">3. RAL farver</option>
+					        </select>
+    					</div>
+    				</div>
+    				<div class="box farver_farver">
+    					<h2 class="farver-h2">2. Vælg farve</h2>
+
+    						<div color_id ="1" type="standard_farver" class="farve" title="101 Hvid A Base" alt="101 Hvid A Base" id="fff">
+    							<div class="farve_bg" style="background-color:#fff"></div>
+    							<div class="farve_navn">101 Hvid A Base</div>
+    						</div>
+
+    						<div color_id ="2" type="standard_farver" class="farve" title="105 Iglo Hvid (S 0500-N)" alt="105 Iglo Hvid (S 0500-N)" id="F0EFEA">
+    							<div class="farve_bg" style="background-color:#F0EFEA"></div>
+    							<div class="farve_navn">105 Iglo Hvid (S 0500-N)</div>
+    					    </div>
+
+    					    <div color_id ="3" type="standard_farver" class="farve" title="205 Brækket Hvid" alt="205 Brækket Hvid" id="ebe6df">
+    					    	<div class="farve_bg" style="background-color:#ebe6df"></div>
+    					    	<div class="farve_navn">205 Brækket Hvid</div>
+    					    </div>
+
+    					    <div color_id ="4" type="standard_farver" class="farve" title="Modehvid (S 0802-Y)" alt="Modehvid (S 0802-Y)" id="EBEBE6">
+    					    	<div class="farve_bg" style="background-color:#EBEBE6"></div>
+    					    	<div class="farve_navn">Modehvid (S 0802-Y)</div>
+    					   </div>
+    					   <div  class="farve" title="Ral 9010" alt="Ral 9010" id="FEFBF4">
+	    					   	<div class="farve_bg" style="background-color:#FEFBF4"></div>
+	    					   	<div class="farve_navn">Ral 9010</div>
+    					   </div>
+
+    					   <div type="standard_farver" class="farve" title="F027" alt="F027" id="DCE2DF">
+	    					   	<div class="farve_bg" style="background-color:#DCE2DF"></div>
+	    					   	<div class="farve_navn">F027</div>
+    					   </div>
+
+    					   <div type="standard_farver" class="farve" title="M200" alt="M200" id="EEEEE3">
+	    					   	<div class="farve_bg" style="background-color:#EEEEE3"></div>
+	    					   	<div class="farve_navn">M200</div>
+    					   </div>
+
+    					   <div type="standard_farver" class="farve" title="210 Anemone" alt="210 Anemone" id="F4ECE0">
+	    					   	<div class="farve_bg" style="background-color:#F4ECE0"></div>
+	    					    <div class="farve_navn">210 Anemone</div>
+    					   </div>
+
+    					   <div type="standard_farver" class="farve" title="210 Anemone" alt="210 Anemone" id="F4ECE0">
+	    					   	<div class="farve_bg" style="background-color:#F4ECE0"></div>
+	    					   	<div class="farve_navn">210 Anemone</div>
+    					   </div>
+
+    					   <div type="standard_farver" class="farve" title="F099" alt="F099" id="F3EEE2">
+	    					   	<div class="farve_bg" style="background-color:#F3EEE2"></div>
+	    					   	<div class="farve_navn">F099</div>
+    					   </div>
+
+    					   <div type="standard_farver" class="farve" title="411 Banan" alt="411 Banan" id="F7EBD5">
+	    					   	<div class="farve_bg" style="background-color:#F7EBD5"></div>
+	    					   	<div class="farve_navn">411 Banan</div>
+    					   </div>
+
+    					   
+
+    						<div color_id ="5" type="ncs_farver" class="farve" title="S 0300-N" alt="S 0300-N" id="FFFFFF">
+    							<div class="farve_bg" style="background-color:#FFFFFF"></div>
+    							<div class="farve_navn">S 0300-N</div>
+    						</div>
+
+    						<div color_id ="6" type="ncs_farver" class="farve" title="S 0500-N" alt="S 0500-N" id="FCFCFB">
+    							<div class="farve_bg" style="background-color:#FCFCFB"></div>
+    							<div class="farve_navn">S 0500-N</div>
+    						</div>
+
+    						<div color_id ="7" type="ncs_farver" class="farve" title="S 1000-N" alt="S 1000-N" id="F2F2F0">
+    							<div class="farve_bg" style="background-color:#F2F2F0"></div>
+    							<div class="farve_navn">S 1000-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 1500-N" alt="S 1500-N" id="E0DFDE">
+    							<div class="farve_bg" style="background-color:#E0DFDE"></div>
+    							<div class="farve_navn">S 1500-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 2000-N" alt="S 2000-N" id="D8D8D7">
+    							<div class="farve_bg" style="background-color:#D8D8D7"></div>
+    							<div class="farve_navn">S 2000-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 2500-N" alt="S 2500-N" id="CECDCC">
+    							<div class="farve_bg" style="background-color:#CECDCC"></div>
+    							<div class="farve_navn">S 2500-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 3000-N" alt="S 3000-N" id="C0BFBE">
+    							<div class="farve_bg" style="background-color:#C0BFBE"></div>
+    							<div class="farve_navn">S 3000-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 3500-N" alt="S 3500-N" id="B0B0AF">
+    							<div class="farve_bg" style="background-color:#B0B0AF"></div>
+    							<div class="farve_navn">S 3500-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 4000-N" alt="S 4000-N" id="A5A5A4">
+    							<div class="farve_bg" style="background-color:#A5A5A4"></div>
+    							<div class="farve_navn">S 4000-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 4500-N" alt="S 4500-N" id="979796">
+    							<div class="farve_bg" style="background-color:#979796"></div>
+    							<div class="farve_navn">S 4500-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 5000-N" alt="S 5000-N" id="8E8E8D">
+    							<div class="farve_bg" style="background-color:#8E8E8D"></div>
+    							<div class="farve_navn">S 5000-N</div>
+    						</div>
+
+    						<div class="farve" title="S 5500-N" alt="S 5500-N" id="858583">
+    							<div class="farve_bg" style="background-color:#858583"></div>
+    							<div class="farve_navn">S 5500-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 6000-N" alt="S 6000-N" id="7A7977">
+    							<div class="farve_bg" style="background-color:#7A7977"></div>
+    							<div class="farve_navn">S 6000-N</div>
+    						</div>
+
+    						<div type="ncs_farver" class="farve" title="S 6500-N" alt="S 6500-N" id="6D6D6B">
+    							<div class="farve_bg" style="background-color:#6D6D6B"></div>
+    							<div class="farve_navn">S 6500-N</div>
+    						</div>
+
+
+
+    						<div color_id ="8" type="ral_farver" class="farve" title="Ral 1000" alt="Ral 1000" id="BEBD7F">
+    							<div class="farve_bg" style="background-color:#BEBD7F"></div>
+    							<div class="farve_navn">Ral 1000</div>
+    						</div>
+
+    						<div color_id ="9" type="ral_farver" class="farve" title="Ral 1001" alt="Ral 1001" id="C2B078">
+    							<div class="farve_bg" style="background-color:#C2B078"></div>
+    							<div class="farve_navn">Ral 1001</div>
+    						</div>
+
+    						<div color_id ="10" type="ral_farver" class="farve" title="Ral 1001" alt="Ral 1001" id="C2B078">
+    							<div class="farve_bg" style="background-color:#C2B078"></div>
+    							<div class="farve_navn">Ral 1001</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1003" alt="Ral 1003" id="E5BE01">
+    							<div class="farve_bg" style="background-color:#E5BE01"></div>
+    							<div class="farve_navn">Ral 1003</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1004" alt="Ral 1004" id="CDA434">
+    							<div class="farve_bg" style="background-color:#CDA434"></div>
+    							<div class="farve_navn">Ral 1004</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1005" alt="Ral 1005" id="A98307">
+    							<div class="farve_bg" style="background-color:#A98307"></div>
+    							<div class="farve_navn">Ral 1005</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1006" alt="Ral 1006" id="E4A010">
+    							<div class="farve_bg" style="background-color:#E4A010"></div>
+    							<div class="farve_navn">Ral 1006</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1007" alt="Ral 1007" id="DC9D00">
+    							<div class="farve_bg" style="background-color:#DC9D00"></div>
+    							<div class="farve_navn">Ral 1007</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1011" alt="Ral 1011" id="8A6642">
+    							<div class="farve_bg" style="background-color:#8A6642"></div>
+    							<div class="farve_navn">Ral 1011</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1012" alt="Ral 1012" id="C7B446">
+    							<div class="farve_bg" style="background-color:#C7B446"></div>
+    							<div class="farve_navn">Ral 1012</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1013" alt="Ral 1013" id="EAE6CA">
+    							<div class="farve_bg" style="background-color:#EAE6CA"></div>
+    							<div class="farve_navn">Ral 1013</div>
+    						</div>
+
+    						<div type="ral_farver" class="farve" title="Ral 1014" alt="Ral 1014" id="E1CC4F">
+    							<div class="farve_bg" style="background-color:#E1CC4F"></div>
+    							<div class="farve_navn">Ral 1014</div>
+    						</div>
+
+
+
+
+    				</div>
+                        <div class="controls hidden-xs">
+    						<div class="selectcolor" style="display: none;">
+    							<span>VÆLG FARVE</span>
+    						</div>
+    						<div class="selectcolorInactive" style="">
+    							<span>VÆLG EN FARVE</span>
+    						</div>
+    					</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+        <div class="cross-btn">
+		<button class="fancybox-button fancybox-button--close" title="close">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 10.6L6.6 5.2 5.2 6.6l5.4 5.4-5.4 5.4 1.4 1.4 5.4-5.4 5.4 5.4 1.4-1.4-5.4-5.4 5.4-5.4-1.4-1.4-5.4 5.4z"></path></svg>
+		</button>
+	   
+	</div>
+	</div>
+	
+
+ <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+ <script src="js/bootstrap.min.js" type="text/javascript"></script>
+ <script src="js/custom.js" type="text/javascript"></script>
+
+</body>
+</html>
